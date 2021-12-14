@@ -90,7 +90,7 @@
 }
 
 + (NSDateFormatter *)iso8601DateFormatter {
-    return [self dateFormatterFromFormat:@"yyyy-MM-dd'T'HH:mm:ssZ"];
+    return [self dateFormatterFromFormat:@"yyyy-MM-dd'T'HH:mm:ss.SSSZ"];
 }
 
 + (NSDate *)dateFromString:(NSString *)dateString {
